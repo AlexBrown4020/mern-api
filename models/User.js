@@ -22,6 +22,12 @@ const UserSchema = new mongoose.Schema({
         type:Boolean,
         default: false,
     },
+    creditCard:{
+        type:String
+    },
+    securityNumber:{
+        type:String
+    }
 }, {timestamps: true});
 
 export default mongoose.model('User', UserSchema);
