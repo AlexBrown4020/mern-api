@@ -23,10 +23,12 @@ const UserSchema = new mongoose.Schema({
         default: false,
     },
     creditCard:{
-        type:String
+        type:String,
+        default:''
     },
     securityNumber:{
-        type:String
+        type:String,
+        default:''
     }
 }, {timestamps: true});
 
