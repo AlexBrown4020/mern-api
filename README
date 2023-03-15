@@ -1,17 +1,13 @@
-# Life in Balance
-This is the frontend repository for Life in Balance; a mock web application for online yoga instructors and their clients to join up, book and attend lessons remotely.
-
 # Life in Balance API
 This is the backend repository for Life in Balance, the frontend repository can be found [here](https://github.com/AlexBrown4020/mern-client)
 
-## Installation
-- Create your own .env file within the root directory
-- Assign your own environment variable to any name you want e.g. 'mongo = 'http://example-mongo-website.com'
-- Make sure to update the index.js connect function to use your name environment variable
-- Assign a TOKEN_KEY in your environment variables with a string of your choice
+##Features:
+- Routes for creating users and instructors
+- Authentication for users and password encryption
+- Creation of lessons by instructors
+- Lesson joining/quitting functionality
 
-## HTTP Requests
-- You can then test if your connection is successful, by using an Insomnia/Postman server to make HTTP requests.
+##Future Features:
 
 ## Tech Stack:
 ### Languages:
@@ -27,3 +23,16 @@ This is the backend repository for Life in Balance, the frontend repository can 
 - bcryptjs
 ### Database:
 - mongoDB
+### Other:
+- Heroku
+
+## Installation
+- git pull origin 
+- Create your own .env file within the root directory
+- npm i (Install all dependencies to your clone of the repository)
+- Assign your own environment variable to any name you want e.g. 'mongo = 'http://example-mongo-website.com'
+- Make sure to update the index.js connect function to use your name environment variable
+- Assign a TOKEN_KEY in your environment variables with a string of your choice
+
+## HTTP Requests
+- You can then test if your connection is successful, by using an Insomnia/Postman server to make HTTP requests.
