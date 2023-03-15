@@ -1,3 +1,6 @@
+# Life in Balance API
+This is the backend repository for Life in Balance, the frontend repository can be found [here](https://github.com/AlexBrown4020/mern-client)
+
 **1: Installation**
 - Create your own .env file within the root directory
 - Assign your own environment variable to any name you want e.g. 'mongo = 'http://example-mongo-website.com'
