@@ -1,3 +1,6 @@
+# Life in Balance
+This is the frontend repository for Life in Balance; a mock web application for online yoga instructors and their clients to join up, book and attend lessons remotely.
+
 # Life in Balance API
 This is the backend repository for Life in Balance, the frontend repository can be found [here](https://github.com/AlexBrown4020/mern-client)
 
