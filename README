@@ -8,6 +8,12 @@ This is the backend repository for Life in Balance, the frontend repository can 
 - Lesson joining/quitting functionality
 
 ## Future Features:
+- Chat/Direct message functionality
+- Class based DM features
+- Profile pages
+- User images
+- Custom lesson images
+- Implement cloud storage with Firebase
 
 ## Tech Stack:
 ### Languages:
